@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <com.sxw.shimmerlayout.shimmer.ShimmerRelativeLayout
+        android:id="@+id/shimmerTextViewContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我是TextView闪光测试"
+            android:textColor="#000000"/>
+    </com.sxw.shimmerlayout.shimmer.ShimmerRelativeLayout>
+
+    <com.sxw.shimmerlayout.shimmer.ShimmerRelativeLayout
+        android:id="@+id/shimmerImageViewContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"/>
+    </com.sxw.shimmerlayout.shimmer.ShimmerRelativeLayout>
+
+
+</LinearLayout>
